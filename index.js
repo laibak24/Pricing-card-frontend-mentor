@@ -1,3 +1,3 @@
 function alertUser(){
-    alert('Humna Boo');
+    alert('Sign Up Clicked');
 }
