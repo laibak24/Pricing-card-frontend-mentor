@@ -1,0 +1,94 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Karla",sans-serif;
+}
+*, *:before,*::after{
+    box-sizing: inherit;
+}
+h1,h2,h4,h3,p{
+    margin:0;
+}
+body{
+    padding:20px;
+    font-size: 16px;
+    font-family: "Karla",sans-serif;
+}
+.card{
+    width:600px;
+    height:400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.upper-section{
+    width:100%;
+    height:45%;
+}
+.lower-section{
+    width:100%;
+    height:55%;
+}
+.left-section{
+    display:inline-block;
+    width:50%;
+    height:100%;
+    vertical-align: top;
+    background-color: #2ab2af;
+    color:#e5eff5;
+}
+.right-section{
+    display:inline-block;
+    width:50%;
+    height:100%;
+    vertical-align: top;
+    background-color: #32c7c4;
+    color:#e5eff5;
+}
+button{
+    color:white;
+    background-color: #c0df34;
+    border-radius: 12px;
+    padding:5px;
+    border:none;
+    width:100%;
+}
+.upper-section h1{
+    margin:20px;
+    color:#2ab2af;
+}
+.upper-section h2{
+    color:#c0df34;
+    margin:20px;
+}
+.left-section h2{
+    display:inline;
+}
+.left-section h3{
+    margin: 20px;
+    padding:5px
+}
+.left-section h4,h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right-section h2{
+    margin: 20px;
+}
+.upper-section h3,p{
+    color:#98a6bd;
+    margin:20px;
+}
+li{
+    padding:0;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity:0.8rem;
+}
+button:hover{
+    animation: bubble 0.4s ease-out;
+    color:#32c7c4;
+}
